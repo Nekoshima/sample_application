@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
-
+gem 'pg',    '0.14.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
@@ -24,10 +24,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-group :production do
-  gem 'pg'
-end
 
 group :test do
   gem 'capybara', '1.1.2'
